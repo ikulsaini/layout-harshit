@@ -1,0 +1,332 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(20, 19, 19);
+}
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+
+.logo {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    /* text-shadow: 3px 3px 3px; */
+}
+
+span {
+    color: rgb(221, 162, 206);
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 12px 25px;
+    /*border: 2px solid transparent;
+  background-color:rgb(240, 87, 240) ;
+  border-radius: 30px 0 30px 0;*/
+    margin: 8px;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalizes;
+    /* text-shadow: 2px 2px 2px; */
+    border: 2px solid rgb(230, 74, 134);
+    justify-content: center;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 3px 2px 3px 2px rgb(230, 74, 134);
+
+
+}
+
+nav ul li a:hover {
+    color: rgb(230, 74, 134);
+    transition: .3s;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    display: inline-block;
+    background-color: black;
+    border: 1px solid rgb(7, 7, 7);
+
+}
+
+.content h1 {
+    color: #fff;
+    margin: 18px 0 18px;
+    font-size: 3rem;
+    background-color: black;
+
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+    border-color: black;
+
+}
+
+.content h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-color: black;
+
+}
+
+.fimage {
+    height: 50vh;
+    width: 100%;
+    /* background-color: black;*/
+    display: flex;
+    margin-top: 2rem;
+    margin: 2rem;
+    padding: 0 3rem 0 3rem;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.text> :nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.text> :nth-child(2) {
+    color: rgb(255, 254, 254);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.right {
+
+    position: relative;
+    left: 10rem;
+}
+
+.simage {
+    margin: 2rem;
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    margin-top: 10rem;
+    align-items: center;
+
+}
+
+.left img {
+
+    height: 450px;
+    width: 680px;
+
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.text1> :nth-child(1) {
+    color: rgb(253, 253, 253);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.text1> :nth-child(2) {
+    color: rgb(255, 255, 255);
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.text1> :nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.text1> :nth-child(4) {
+    color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cont {
+    height: 30vh;
+    background-color: rgb(22, 21, 22);
+    display: grid;
+    text-align: center;
+    margin-top: 80px;
+    border: 2px solid rgb(29, 27, 27);
+    border-radius: 5%;
+    justify-content: center;
+    
+}
+.cont h1{
+    padding-top: 20px;
+}
+
+.cont .h {
+    color: aquamarine;
+    
+}
+
+.cont a {
+    text-decoration: none;
+}
+
+
+footer {
+    margin-top: 30px;
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(15, 14, 14);
+}
+.fo{
+   /* border: 2px solid red;*/
+    position: relative;
+    left: 10%;
+    top: 50%;
+    display: flex;
+    width: 12%;
+    border-radius: 30%;
+    
+}
+
+footer h1{
+    color: #fff;
+    
+    
+}
+ 
+.page1{
+    border: 2px solid rgb(5, 5, 5);
+    display: grid;
+    position: relative;
+    left: 35%;
+    top: 7%;
+    gap: 2rem;
+    width: 10%;
+    border-radius: 30%;
+    border-radius: 10%;
+    justify-content: center;
+
+}
+
+.page1> :nth-child(1){
+    color: #fff;
+    font-size: 35px;
+}
+.page1> :nth-child(2){
+    font-size: 25px;
+    text-decoration: none;
+}
+.page1> :nth-child(3){
+    font-size: 25px;
+    text-decoration: none;
+}
+.page1> :nth-child(4){
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.page2{
+    border: 2px solid rgb(7, 7, 7);
+    display: grid;
+    position: relative;
+    left: 55%;
+    top: -64%;
+    gap: 2rem;
+    width: 10%;
+    border-radius: 10%;
+    justify-content: center;
+}
+
+.page2> :nth-child(1){
+    color: #fff;
+    font-size: 35px;
+}
+.page2> :nth-child(2){
+    font-size: 25px;
+    text-decoration: none;
+}
+.page2> :nth-child(3){
+    font-size: 25px;
+    text-decoration: none;
+}
+.page2> :nth-child(4){
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.page3{
+    border: 2px solid rgb(7, 7, 7);
+    display: grid;
+    position: relative;
+    left: 79%;
+    top: -110%;
+    gap: 2rem;
+    width: 10%;
+    border-radius: 10%;
+    justify-content: center;
+}
+.page3 span a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+.page2  span a{
+    text-decoration: none;
+}
+.page1 span a{
+    text-decoration: none;
+}
+
